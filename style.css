@@ -1,0 +1,127 @@
+.grid-big {
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  grid-template-rows: repeat(6, 50px);
+  gap: 10px;
+  width: fit-content;
+ 
+}
+
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+}
+
+.item1  { 
+  grid-column: 4; 
+  grid-row: 1 / span 2; 
+  background: #f7c531;
+ }
+.item2  {
+   background: #ed6c44; }
+.item3  { 
+  grid-column: 4; 
+  grid-row: 1 / span 2; 
+  background: #ddb12f;
+ }
+.item4  { 
+   grid-row: 5 / span 2; 
+   background: #57eb2b; 
+  }
+.item5  { 
+  grid-column: 2; 
+  grid-row: 3; 
+  background: #ffefaa; 
+  color: black; 
+}
+.item6  { 
+  grid-column: 3 / span 2; 
+  grid-row: 3 / span 2; 
+  background: #531e0a;
+ }
+.item7  { 
+  grid-column: 1; 
+  grid-row: 4; 
+  background: #624f05;
+ }
+.item8  {  
+  grid-row: 3; 
+  background: #baa25f; 
+}
+.item9  { 
+  grid-column: 2; 
+  grid-row: 1; 
+  background: #d5e2f2; 
+  color: black; 
+}
+.item10 { 
+  grid-column: 6; 
+  grid-row: 3; 
+  background: #755d07; 
+}
+.item11 { 
+  grid-column: 5; 
+  grid-row: 3; 
+  background: #063a72; 
+}
+.item12 { 
+  background: #956902; }
+.item13 { 
+  grid-column: 1 / span 2; 
+  grid-row: 1 / span 2; 
+  background: #348f03; 
+}
+.item14 { 
+  grid-column: 5; 
+  grid-row: 4 / span 2; 
+  background: #957a03;
+ }
+.item15 {  
+  background: #e75d32; }
+.item16 { 
+  grid-column: 2; 
+  grid-row: 4; 
+  background: #e5b230; }
+.item17 { 
+   background: #d5ab2f; }
+.item18 { 
+  grid-column: 3; 
+  grid-row: 1; 
+  background: #2c4562; }
+.item19 {  
+  grid-row: 4; 
+  background:
+   #ca693f; }
+.item20 { 
+  grid-column: 5 / span 2; 
+  grid-row: 2; 
+  background: #3b3218; 
+}
+.item21 { 
+  grid-column: 3 / span 2; 
+  grid-row: 4 / span 3; 
+  background: #5b5853; 
+}
+.item22 { 
+  grid-column: 1; 
+  grid-row: 3; 
+  background: #b3a793; 
+  color: black; 
+}
+.item23 { 
+  grid-column: 5; 
+  grid-row: 6 / span 2; 
+  background: #ebc96b; 
+  color: black; 
+}
+.item24 { 
+  grid-column: 1 / span 2; 
+  grid-row: 5 / span 2; 
+  background: #66c4e6; 
+}
